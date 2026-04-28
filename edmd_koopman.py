@@ -9,9 +9,9 @@ CSV files using Extended Dynamic Mode Decomposition (EDMD), with:
   - Expanded nonlinear dictionary (state-only, no lifted inputs)
   - One-step and multi-step prediction error reporting
 
-All data is preprocessed to EXACTLY match tinyphysics.py's get_data():
+All data is preprocessed to match tinyphysics.py's get_data():
     roll_lataccel   = sin(roll) * 9.81
-    steer_command   = -steerCommand        (sign flip: left->right positive)
+    steer_command   = -steerCommand
 
 State:   x = [v, a, r, l]
            v = v_ego
