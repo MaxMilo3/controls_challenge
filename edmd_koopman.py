@@ -55,7 +55,7 @@ def print(*args, **kwargs):
 
 
 # ---------------------------------------------------------------------------
-# Data preprocessing  — mirrors tinyphysics.py get_data() exactly
+# Data preprocessing
 # ---------------------------------------------------------------------------
 
 def preprocess(df: pd.DataFrame) -> pd.DataFrame:
